@@ -1,0 +1,63 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body { 
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+	position: fixed;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #dfbca5;
+    -webkit-animation: hue 6s infinite linear;
+}
+
+@-webkit-keyframes hue {
+    0%{color: #dfbca5;}
+    20% {color: #d4dfa5;}
+    40% {color: #a5dfbe;}
+    60% {color: #a5a8df;}
+    80% {color: #d8a5df;}
+    100%{color: #dfbca5;}
+}
+
+hr {
+	border-color: #fe5013;
+	border-width:3px;
+	max-width: 65px;
+}
+
+.buffer{
+	height: 10rem;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color: #fe5013;
+	border-color: #fe5013;
+}
+
+.btn-primary:hover {
+	background-color: #db7b5a;
+	border-color: #db7b5a;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
